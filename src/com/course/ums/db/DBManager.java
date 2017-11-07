@@ -9,7 +9,7 @@ import java.sql.SQLException;
  */
 public class DBManager {
 
-    private static final String DB_URL = "jdbc:mysql://trainer:trainer@localhost/ums?useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private static final String DB_URL = "jdbc:mysql://root:root@localhost/ums?useLegacyDatetimeCode=false&serverTimezone=UTC";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(DB_URL);
